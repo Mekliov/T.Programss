@@ -1,0 +1,9 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = "Ahmed Meckliov";
+            string str1 = str.Substring(6,7);
+            Console.WriteLine(str1);
+        }
+    }

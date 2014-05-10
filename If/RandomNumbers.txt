@@ -1,0 +1,12 @@
+ class Programs
+    {
+              
+        
+        
+        static void Main(string[] args)
+        {
+            Random RandomNumber = new Random();
+            Console.WriteLine(RandomNumber.Next(100,200));
+        
+        }
+    }

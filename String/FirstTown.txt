@@ -1,0 +1,21 @@
+ static void Main(string[] args)
+        {
+            string[] town = { "Sofia", "Plovdiv", "Yakoto", "Pleven", "Burgas", "sofia" };
+            string firsttown = town[0];
+            for (int i = 0; i < town.Length; i++)
+            {
+                string curenttown = town[i];
+                if (String.Compare(curenttown, firsttown) > 0)
+                {
+                    firsttown = curenttown;
+                }
+
+
+             
+            }
+
+            Console.WriteLine(firsttown);
+        
+        }  
+        
+    }

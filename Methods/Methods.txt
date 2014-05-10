@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication31
+{
+    class Program
+    {
+        static void Main()
+        {
+            Numbers();
+        }
+
+
+        static void Numbers(int number1 = 5, int number2 = 456)
+        {
+            int max = number1;
+            if (number2 > number1)
+            {
+                max = number2;
+                Console.WriteLine("{0} is bigger", max);
+            }
+        } 
+    
+    }
+
+
+
+
+
+}

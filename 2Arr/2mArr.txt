@@ -1,0 +1,36 @@
+class Program
+{
+    static void Main(string[] args)
+    {
+
+
+
+        int rows = int.Parse(Console.ReadLine());
+        int cols = int.Parse(Console.ReadLine());
+        int [,] mass  = new int [rows,cols];
+        string inputNumber;
+        for (int r = 0; r < rows; r++)
+        {
+            for (int c = 0; c < cols; c++)
+            {
+                Console.WriteLine("mass {0}, {1}", r, c);
+                inputNumber = Console.ReadLine();
+                mass[r, c] = int.Parse(inputNumber);
+            }
+        }
+
+        Console.WriteLine("Matricata e");
+        for (int r = 0; r < rows; r++)
+        {
+            for (int c = 0; c < cols; c++)
+            {
+                Console.WriteLine("{0} ", mass[r, c]);
+               
+            }
+            Console.WriteLine();
+        }
+
+
+    }
+}
+

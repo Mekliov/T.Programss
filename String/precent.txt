@@ -1,0 +1,12 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+         int number = int.Parse(Console.ReadLine());
+            string s = number.ToString("X");
+            Console.WriteLine(s);
+            string st = number.ToString("p");
+            Console.WriteLine(st);
+           
+        }
+    }

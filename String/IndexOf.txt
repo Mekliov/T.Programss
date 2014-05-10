@@ -1,0 +1,8 @@
+static void Main(string[] args)
+        {
+            string dtr = "first and last town are burgas and yambol";
+            int index = dtr.IndexOf("and",10);
+            Console.WriteLine(index);
+        }  
+        
+    }

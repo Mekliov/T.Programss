@@ -1,0 +1,38 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+           double d,x1,x2;
+           Console.WriteLine("Vyvedete Parametrite na Uravnenieto");
+           Console.WriteLine("Vyvedete stoinost za a:\n");
+            double a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Vyvedete stoinost za b:\n");
+            double b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Vyvedete stoinost za c:\n");
+            double c = int.Parse(Console.ReadLine());
+           d = (b * b)-4*a*c;
+
+           Console.WriteLine("Diskriminantata na uravnenieto e {0}:",d);
+
+           if (d > 0)
+           {
+
+
+               x1 = (-b - System.Math.Sqrt(d));
+               x2 = (-b + System.Math.Sqrt(d));
+               Console.WriteLine("Koren na uravnenieto e x1:\n");
+               Console.WriteLine(x2 / (2 * a));
+               Console.WriteLine("Koren na uravnenieto e x2:\n");
+               Console.WriteLine(x1 / (2 * a));
+
+           }
+
+           else
+           {
+               Console.WriteLine("Zadadenite parametri sa Greshni!!!");
+           
+           }
+        
+        
+        }
+    }

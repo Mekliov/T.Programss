@@ -1,0 +1,31 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine());
+
+            int result = 1;
+            while (true)
+            {
+                if (n == 1)
+                    break;
+                result *= n;
+                n--;
+            }
+                Console.WriteLine("n! = " + result);
+
+                int fakt = 1;   
+            while (true)
+                {
+                    if (k == 1)
+                        break;
+                    fakt *= k;
+                    k--;
+                }
+                Console.WriteLine("k! = " + fakt);
+                int a = result * fakt;
+                Console.WriteLine(a);
+               
+        }
+    }

@@ -1,0 +1,8 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = "Ahmed Meckliov";
+            Console.WriteLine(str.Split('e').Length-1);
+        }
+    }
